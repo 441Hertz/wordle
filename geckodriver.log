@@ -1,0 +1,16 @@
+1648757609790	geckodriver	INFO	Listening on 127.0.0.1:49261
+1648757612869	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49262" "-no-remote" "-profile" "C:\\Users\\skyle\\AppData\\Local\\Temp\\rust_mozprofileqyER1E"
+1648757613280	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists,1648757617512	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49282" "-no-remote" "-profile" "C:\\Users\\skyle\\AppData\\Local\\Temp\\rust_mozprofileFj04GP"
+1648757617841	Marionette	INFO	Marionette enabled
+console.warn: Search1648757940808	Marionette	INFO	Stopped listening on port 49268
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+	Listening on port 49333
+1648757620201	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648757620477	Marionette	INFO	Stopped listening on port 49333
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+JavaScript error: resource://gre/modules/TerminatorTelemetry.jsm, line 71: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
